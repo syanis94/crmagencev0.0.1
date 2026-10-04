@@ -10,10 +10,10 @@ export function PartnerSection() {
       <Container className={styles.partnerGrid}>
         <div className={styles.videoCard}>
           <Image
-            src="/images/window-reference.webp"
+            src="/images/window-reference-clean.webp"
             alt="Vue depuis un hublot d'avion au-dessus des nuages"
-            width={405}
-            height={318}
+            width={480}
+            height={376}
             unoptimized
             sizes="(max-width: 860px) 100vw, 46vw"
           />

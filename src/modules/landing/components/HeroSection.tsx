@@ -42,13 +42,13 @@ export function HeroSection() {
 
         <div className={styles.heroVisual}>
           <Image
-            src="/images/hero-reference.webp"
+            src="/images/hero-reference-clean.webp"
             alt="GestionVoyage présenté sur ordinateur et téléphone devant un paysage méditerranéen"
-            width={604}
-            height={580}
+            width={420}
+            height={414}
             priority
             unoptimized
-            sizes="(max-width: 860px) 100vw, 58vw"
+            sizes="(max-width: 900px) 100vw, 58vw"
           />
         </div>
       </Container>
