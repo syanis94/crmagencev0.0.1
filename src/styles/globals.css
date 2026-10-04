@@ -16,7 +16,7 @@ img { max-width: 100%; height: auto; }
 ::selection { color: white; background: var(--gv-primary); }
 
 .gvContainer {
-  width: min(var(--gv-content), calc(100% - 40px));
+  width: min(var(--gv-content), calc(100% - 96px));
   margin-inline: auto;
 }
 
@@ -32,8 +32,12 @@ img { max-width: 100%; height: auto; }
   border: 0;
 }
 
+@media (max-width: 900px) {
+  .gvContainer { width: min(var(--gv-content), calc(100% - 32px)); }
+}
+
 @media (max-width: 640px) {
-  .gvContainer { width: min(100% - 28px, var(--gv-content)); }
+  .gvContainer { width: min(var(--gv-content), calc(100% - 28px)); }
 }
 
 @media (prefers-reduced-motion: reduce) {
