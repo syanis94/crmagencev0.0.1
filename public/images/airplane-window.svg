@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Vue stylisée depuis un hublot d'avion">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4cbcf8"/><stop offset=".62" stop-color="#d9f2ff"/><stop offset="1" stop-color="#f9fcff"/></linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f8fb"/><stop offset=".55" stop-color="#cfd8e4"/><stop offset="1" stop-color="#9eacbd"/></linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="#12253b"/>
+  <rect x="170" y="70" width="860" height="760" rx="250" fill="url(#frame)"/>
+  <rect x="235" y="125" width="730" height="650" rx="210" fill="url(#sky)"/>
+  <g fill="#fff" opacity=".9"><ellipse cx="450" cy="560" rx="260" ry="75"/><ellipse cx="700" cy="515" rx="310" ry="88"/><ellipse cx="820" cy="610" rx="220" ry="62"/></g>
+  <path d="M330 560 C530 520 640 520 910 575 L850 620 C650 585 520 585 360 612Z" fill="#dfe7ef" stroke="#aab7c5" stroke-width="8"/>
+  <path d="M720 560 l210-150 45 18-150 170z" fill="#eef3f8" stroke="#b4c0cd" stroke-width="7"/>
+</svg>

@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: gestionvoyage
+      POSTGRES_PASSWORD: gestionvoyage
+      POSTGRES_DB: gestionvoyage
+    ports:
+      - "5432:5432"
+    volumes:
+      - gestionvoyage_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gestionvoyage -d gestionvoyage"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  gestionvoyage_pgdata:
