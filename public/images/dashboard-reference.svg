@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-label="Aperçu stylisé du tableau de bord GestionVoyage">
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e2a49"/><stop offset="1" stop-color="#163b64"/></linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1f4f80" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1536" height="1024" fill="#f4f8fc"/>
+  <rect width="255" height="1024" fill="#0c2542"/>
+  <g fill="#dceaff" font-family="Arial, sans-serif"><text x="42" y="70" font-size="28" font-weight="700">GestionVoyage</text><text x="42" y="126" font-size="15" opacity=".7">TABLEAU DE BORD</text></g>
+  <g fill="#91a8c0"><rect x="36" y="160" width="170" height="42" rx="12"/><rect x="36" y="225" width="150" height="18" rx="9"/><rect x="36" y="270" width="164" height="18" rx="9"/><rect x="36" y="315" width="142" height="18" rx="9"/><rect x="36" y="360" width="158" height="18" rx="9"/><rect x="36" y="405" width="150" height="18" rx="9"/></g>
+  <rect x="292" y="35" width="1205" height="135" rx="26" fill="url(#top)"/>
+  <g font-family="Arial, sans-serif" fill="#fff"><text x="338" y="88" font-size="19" opacity=".82">Bonjour, bienvenue sur</text><text x="338" y="126" font-size="34" font-weight="700">GestionVoyage.com</text></g>
+  <g filter="url(#s)">
+    <rect x="292" y="205" width="270" height="145" rx="24" fill="#fff"/><rect x="585" y="205" width="270" height="145" rx="24" fill="#fff"/><rect x="878" y="205" width="270" height="145" rx="24" fill="#fff"/><rect x="1171" y="205" width="326" height="145" rx="24" fill="#fff"/>
+  </g>
+  <g font-family="Arial, sans-serif"><text x="330" y="250" font-size="15" fill="#71859b">Dossiers actifs</text><text x="330" y="310" font-size="44" font-weight="700" fill="#0d2239">248</text><text x="622" y="250" font-size="15" fill="#71859b">Réservations</text><text x="622" y="310" font-size="44" font-weight="700" fill="#0d2239">86</text><text x="914" y="250" font-size="15" fill="#71859b">CA du mois</text><text x="914" y="310" font-size="44" font-weight="700" fill="#0d2239">4.8 M</text><text x="1210" y="250" font-size="15" fill="#71859b">Satisfaction</text><text x="1210" y="310" font-size="44" font-weight="700" fill="#0d2239">96%</text></g>
+  <g filter="url(#s)"><rect x="292" y="385" width="765" height="560" rx="24" fill="#fff"/><rect x="1080" y="385" width="417" height="270" rx="24" fill="#fff"/><rect x="1080" y="680" width="417" height="265" rx="24" fill="#fff"/></g>
+  <g font-family="Arial, sans-serif" fill="#0d2239"><text x="330" y="435" font-size="24" font-weight="700">Activité récente</text><text x="1120" y="435" font-size="23" font-weight="700">Départs à venir</text><text x="1120" y="730" font-size="23" font-weight="700">Tâches</text></g>
+  <g fill="#dbeaf8"><rect x="330" y="480" width="680" height="54" rx="16"/><rect x="330" y="553" width="680" height="54" rx="16"/><rect x="330" y="626" width="680" height="54" rx="16"/><rect x="330" y="699" width="680" height="54" rx="16"/><rect x="330" y="772" width="680" height="54" rx="16"/><rect x="330" y="845" width="680" height="54" rx="16"/></g>
+  <g fill="#edf4fb"><rect x="1120" y="475" width="335" height="48" rx="14"/><rect x="1120" y="540" width="335" height="48" rx="14"/><rect x="1120" y="770" width="335" height="48" rx="14"/><rect x="1120" y="835" width="335" height="48" rx="14"/></g>
+</svg>

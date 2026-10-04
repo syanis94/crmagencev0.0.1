@@ -1,0 +1,11 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Business models will be introduced module-by-module.
+// Phase 1 intentionally keeps the schema empty so the landing page remains decoupled from persistence.
