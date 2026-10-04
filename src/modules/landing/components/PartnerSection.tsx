@@ -9,13 +9,26 @@ export function PartnerSection() {
     <section id="apropos" className={styles.partnerSection}>
       <Container className={styles.partnerGrid}>
         <div className={styles.videoCard}>
-          <Image src="/images/airplane-window.svg" alt="Vue depuis un hublot d'avion" width={1200} height={900} />
-          <span className={styles.videoPlay} aria-hidden="true"><AppIcon name="play" size={36} /></span>
+          <Image
+            src="/images/airplane-window-ai.jpg"
+            alt="Vue depuis un hublot d'avion au-dessus des nuages"
+            width={760}
+            height={623}
+            sizes="(max-width: 860px) 100vw, 45vw"
+          />
+          <span className={styles.videoPlay} aria-hidden="true">
+            <AppIcon name="play" size={36} />
+          </span>
         </div>
+
         <div className={styles.partnerCopy}>
           <span className={styles.kicker}>PLUS QU'UN LOGICIEL</span>
           <h2>Un partenaire pour<br />faire grandir votre agence</h2>
-          <p>GestionVoyage.com vous accompagne dans votre développement avec une solution moderne, sécurisée et évolutive, conçue par des experts du voyage.</p>
+          <p>
+            GestionVoyage.com vous accompagne dans votre développement avec une
+            solution moderne, sécurisée et évolutive, conçue pour les professionnels du voyage.
+          </p>
+
           <div className={styles.benefits}>
             {benefits.map((benefit) => (
               <div key={benefit.title}>
@@ -24,7 +37,10 @@ export function PartnerSection() {
               </div>
             ))}
           </div>
-          <a className={styles.outlineButton} href="#fonctionnalites">Découvrir la plateforme <AppIcon name="arrow" size={18} /></a>
+
+          <a className={styles.outlineButton} href="#fonctionnalites">
+            Découvrir la plateforme <AppIcon name="arrow" size={18} />
+          </a>
         </div>
       </Container>
     </section>
