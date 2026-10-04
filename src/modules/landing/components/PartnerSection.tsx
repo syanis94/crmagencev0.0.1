@@ -10,7 +10,7 @@ export function PartnerSection() {
       <Container className={styles.partnerGrid}>
         <div className={styles.videoCard}>
           <Image
-            src="/images/airplane-window-ai.jpg"
+            src="/images/airplane-window-ai.webp"
             alt="Vue depuis un hublot d'avion au-dessus des nuages"
             width={760}
             height={623}

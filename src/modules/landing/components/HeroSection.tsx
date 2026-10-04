@@ -38,7 +38,7 @@ export function HeroSection() {
 
         <div className={styles.heroVisual}>
           <Image
-            src="/images/gestionvoyage-hero-ai.jpg"
+            src="/images/gestionvoyage-hero-ai.webp"
             alt="GestionVoyage présenté sur ordinateur et téléphone devant un paysage méditerranéen"
             width={980}
             height={977}
